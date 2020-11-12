@@ -12,7 +12,6 @@ void input(void) {
   char buf[10];
   scanf("%s", buf);
   printf("Hello, %s!\n", buf);
-  fflush(stdout);
 }
 
 int main(void) {
